@@ -28,7 +28,4 @@ public class test {
         System.out.println(i1 == i2);
     }
 }
-//equals和等号的区别
-//intern函数的使用
-//字符串的拼接
 
