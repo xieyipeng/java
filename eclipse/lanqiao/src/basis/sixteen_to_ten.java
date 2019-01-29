@@ -1,7 +1,9 @@
-import java.util.Scanner;
+package basis;
 
-public class test {
+import java.util.*;
 
+public class sixteen_to_ten {
+	
     public static int getTenNum(char six_num) {
         if (six_num >= 48 && six_num <= 57) {
             return six_num - 48;
@@ -9,7 +11,7 @@ public class test {
             return 10 + six_num - 65;
         }
     }
-
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String sixteen_num = scanner.nextLine();
@@ -22,4 +24,3 @@ public class test {
         System.out.print(ten_num);
     }
 }
-
