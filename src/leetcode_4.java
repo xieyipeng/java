@@ -29,16 +29,16 @@ public class leetcode_4 {
         List<Integer> list = new ArrayList<>();
         int nums1_flag = 0;
         int nums2_flag = 0;
-        
 
-        if (nums1.length==0||nums2.length==0){
+
+        if (nums1.length == 0 || nums2.length == 0) {
             for (int i = 0; i < nums1.length; i++) {
                 list.add(nums1[i]);
             }
             for (int i = 0; i < nums2.length; i++) {
                 list.add(nums2[i]);
             }
-        }else {
+        } else {
             for (int i = 0; i < size; i++) {
                 if (nums1[nums1_flag] <= nums2[nums2_flag]) {
                     list.add(nums1[nums1_flag]);
