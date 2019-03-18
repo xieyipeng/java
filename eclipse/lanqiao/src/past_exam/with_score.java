@@ -1,5 +1,6 @@
 package past_exam;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class with_score {
@@ -9,6 +10,7 @@ public class with_score {
 		Scanner scanner=new Scanner(System.in);
 		num=scanner.nextInt();
 		int[] arr={1,2,3,4,5,6,7,8,9};
+//		int[] arr={1,2,3};
 		f(0,arr);
 		System.out.print(count);
 	}
@@ -18,11 +20,12 @@ public class with_score {
 		if(sub>arr.length-1) {
 			check(arr);
 		}
+		
 		for(int i=sub;i<arr.length;i++) {
 			int temp=arr[i];
 			arr[i]=arr[sub];
 			arr[sub]=temp;
-			
+//			System.out.print(Arrays.toString(arr)+"\n");
 			f(sub+1,arr);
 			
 			temp=arr[i];
