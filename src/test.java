@@ -1,60 +1,52 @@
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class test {
-    private static int candyNum = 0;
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int studentNum = scanner.nextInt();
-        scanner.nextLine();
-        String[] temp = scanner.nextLine().split("\\s+");
-        int[] allNum = new int[studentNum];
-//        for (int i = 0; i < studentNum; i++) {
-//            System.out.print(temp[i] + "-");
-//        }
-        for (int i = 0; i < studentNum; i++) {
-            allNum[i] = Integer.parseInt(temp[i]);
-        }
-
-        while (!same(allNum)) {
-//            System.out.println("while:");
-            int[] after = new int[allNum.length];
-            for (int i = 0; i < allNum.length; i++) {
-                if (i == 0) {
-                    after[i] = (allNum[i] / 2) + (allNum[allNum.length - 1] / 2);
-                } else {
-                    after[i] = (allNum[i] / 2) + (allNum[i - 1] / 2);
+        for (int a = 1; a < 2; a++) {
+            for (int b = 0; b < 10; b++) {
+                for (int c = 0; c < 10; c++) {
+                    for (int d = 0; d < 10; d++) {
+                        for (int e = 0; e < 10; e++) {
+                            for (int f = 0; f < 10; f++) {
+                                for (int g = 0; g < 10; g++) {
+                                    for (int h = 0; h < 10; h++) {
+                                        int[] t = {a, b, c, d, e, f, g, h};
+                                        int n1 = f * 1000 + d * 100 + e * 10 + g;
+                                        int n2 = a * 1000 + b * 100 + c * 10 + d;
+                                        int sum = n1 + n2;
+                                        int n3 = a * 10000 + b * 1000 + e * 100 + d * 10 + h;
+                                        if ((n1 + n2) == n3 && !haveSame(t)) {
+                                            System.out.println(n1 + " " + n2 + " " + sum + " " + " " + n3);
+                                            System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + g + " " + h);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
-//            System.out.println("change:");
-            for (int i = 0; i < allNum.length; i++) {
-
-                if (after[i] % 2 == 1) {
-                    after[i] = after[i] + 1;
-                    candyNum++;
-                }
-                allNum[i] = after[i];
-            }
         }
-//		System.out.print(Arrays.toString(allNum));
-        System.out.print(candyNum);
+
     }
 
     /**
-     * 检查数组内各值是否相等
+     * 判断数组中是否存在相同的值
      *
-     * @param allNum 数组
-     * @return 是或否
+     * @param ab 数组
+     * @return 是否存在
      */
-    private static boolean same(int[] allNum) {
+    private static boolean haveSame(int[] ab) {
         // TODO Auto-generated method stub
-        int test = allNum[0];
-        for (int i = 1; i < allNum.length; i++) {
-            if (test != allNum[i]) {
-//                System.out.println(false);
-                return false;
+        List<Integer> temp = new ArrayList<>();
+        for (int i = 0; i < ab.length; i++) {
+            if (temp.contains(ab[i])) {
+                return true;
+            } else {
+                temp.add(ab[i]);
             }
         }
-        return true;
+        return false;
     }
 }
