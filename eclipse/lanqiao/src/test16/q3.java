@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
+package test16;
 
-public class test {
+public class q3 {
     static int ans = 0;
     public static void main(String[] args) {
         for (int i = 1; i <= 9; i++) {//a
