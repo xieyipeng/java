@@ -2,51 +2,74 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class test {
+    static int size = 0;
+    private static List<int[]> arr = new ArrayList<>();
+
     public static void main(String[] args) {
-        for (int a = 1; a < 2; a++) {
-            for (int b = 0; b < 10; b++) {
-                for (int c = 0; c < 10; c++) {
-                    for (int d = 0; d < 10; d++) {
-                        for (int e = 0; e < 10; e++) {
-                            for (int f = 0; f < 10; f++) {
-                                for (int g = 0; g < 10; g++) {
-                                    for (int h = 0; h < 10; h++) {
-                                        int[] t = {a, b, c, d, e, f, g, h};
-                                        int n1 = f * 1000 + d * 100 + e * 10 + g;
-                                        int n2 = a * 1000 + b * 100 + c * 10 + d;
-                                        int sum = n1 + n2;
-                                        int n3 = a * 10000 + b * 1000 + e * 100 + d * 10 + h;
-                                        if ((n1 + n2) == n3 && !haveSame(t)) {
-                                            System.out.println(n1 + " " + n2 + " " + sum + " " + " " + n3);
-                                            System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + g + " " + h);
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
 
+
+        dfs(0, 0);
+        System.out.print(size);
     }
 
-    /**
-     * 判断数组中是否存在相同的值
-     *
-     * @param ab 数组
-     * @return 是否存在
-     */
-    private static boolean haveSame(int[] ab) {
+    private static void dfs(int num, int sum) {
+        // TODO Auto-generated method stub]\
+        if (sum>13){
+            return;
+        }
+        if (num==13){
+            if (sum==13){
+                size++;
+            }
+        }else {
+            for (int i=0;i<5;i++){
+                dfs(num+1,sum+i);
+            }
+        }
+    }
+
+    private static int allOne(int[] flag) {
+        for (int i = 0; i < flag.length; i++) {
+            if (flag[i] == 0) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    private static boolean mineEqual(int[] is, int[] num) {
         // TODO Auto-generated method stub
-        List<Integer> temp = new ArrayList<>();
-        for (int i = 0; i < ab.length; i++) {
-            if (temp.contains(ab[i])) {
-                return true;
-            } else {
-                temp.add(ab[i]);
+        boolean same = true;
+        for (int i = 0; i < is.length; i++) {
+            if (is[i] != num[i]) {
+                same = false;
             }
         }
-        return false;
+        return same;
     }
+
+    private static int mineSum(int[] num) {
+        // TODO Auto-generated method stub
+        int ans = 0;
+        for (int i = 0; i < num.length; i++) {
+            ans += num[i];
+        }
+        return ans;
+    }
+//    private static int ans=0;
+//    static void dfs(int type, int sum) {
+//        if (sum > 13) return;
+//        if (type == 13) {
+//            if (sum == 13) ans++;
+//            return;
+//        }
+//        for (int i = 0; i < 5; i++) {
+//            dfs(type + 1, sum + i);
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        dfs(0, 0);
+//        System.out.println(ans);
+//    }
 }
