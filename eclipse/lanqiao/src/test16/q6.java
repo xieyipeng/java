@@ -1,4 +1,6 @@
-public class test {
+package test16;
+
+public class q6 {
     private static int ans = 0;
 
     public static void main(String[] args) {
@@ -127,5 +129,3 @@ public class test {
         return check(num, is, 0);
     }
 }
-
-
