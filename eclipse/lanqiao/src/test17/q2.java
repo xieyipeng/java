@@ -1,7 +1,9 @@
+package test17;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class test {
+public class q2 {
     private static List<int[]> list=new ArrayList<>();
     public static void main(String[] args) {
         int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -39,6 +41,7 @@ public class test {
     }
 
 }
+
 
 
 
