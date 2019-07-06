@@ -1,44 +1,60 @@
-import java.util.ArrayList;
-import java.util.List;
 
-public class test {
-    private static List<int[]> list=new ArrayList<>();
-    public static void main(String[] args) {
-        int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        dfs(num, 0);
-        //一个排列旋转、镜像之后有6种，因此除以6
-        System.out.println(list.size()/6);
+import javax.swing.*;
+import java.awt.*;
+
+public class test extends JFrame {
+
+    public test() {
+        this.setBounds(600, 250, 700, 450);
+        this.setContentPane(new Paint());
+        setVisible(true);
     }
 
-    private static void dfs(int[] num, int sub) {
-        if (sub == num.length) {
-            if (ok(num)){
-                list.add(num);
+    public static void main(String[] args) {       //主函数
+        test hap = new test();       //实例化主类
+
+        java.awt.EventQueue.invokeLater(new Runnable() { //运行图形化界面
+            public void run() {
+                hap.setVisible(true);
             }
-            return;
-        }
-
-        for (int i = sub; i < num.length; i++) {
-            int temp = num[i];
-            num[i] = num[sub];
-            num[sub] = temp;
-
-            dfs(num, sub + 1);
-
-            temp = num[i];
-            num[i] = num[sub];
-            num[sub] = temp;
-
-        }
-
-
+        });
     }
 
-    private static boolean ok(int[] num) {
-        return num[0] + num[1] + num[3] + num[5] == num[0] + num[2] + num[4] + num[8] && num[0] + num[2] + num[4] + num[8] == num[5] + num[6] + num[7] + num[8];
+    class Paint extends JPanel {
+
+        public void paint(Graphics g) {
+            g.setColor(Color.pink);
+
+            g.fillOval(230, 150, 240, 120);
+
+            g.setColor(Color.orange);
+            g.drawRect(280, 140, 140, 50);
+            g.fillOval(280, 110, 140, 60);
+            g.fillOval(280, 160, 140, 60);
+            g.fillRect(280, 140, 140, 50);
+
+            g.setColor(Color.black);
+            g.drawOval(280, 110, 140, 60);
+            g.drawOval(230, 150, 240, 120);
+
+            g.drawArc(230, 220, 240, 120, 0, -180);
+
+            g.drawLine(280, 140, 280, 190);
+            g.drawLine(420, 140, 420, 190);
+            g.drawLine(230, 210, 230, 280);
+            g.drawLine(470, 210, 470, 280);
+
+            g.setColor(Color.orange);
+            g.drawArc(230, 150, 240, 120, 55, 125);
+
+            g.setColor(Color.red);
+            g.setFont(new Font("楷体", Font.BOLD, 35));
+            g.drawString("生    乐", 270, 305);
+            g.drawString("日快", 310, 315);
+            g.setColor(Color.black);
+            g.drawString("李润阳", 300, 80);
+
+        }
     }
 
 }
-
-
-

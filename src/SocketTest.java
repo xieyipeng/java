@@ -3,7 +3,7 @@ import java.net.Socket;
 
 /**
  * Created with IntelliJ IDEA.
- * TODO: Socket Test
+ * TODO: Socket test
  * User: xieyipeng
  * Date: 2018-08-20
  * Time: 10:58
