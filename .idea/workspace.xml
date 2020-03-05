@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fdca5b2-951d-437f-82d4-5ff11d92852f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eclipse/lanqiao/src/test17/q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/lanqiao/src/test17/q2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/unit/leetcode_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/unit/leetcode_781.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unit/META-INF/unit.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unit/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/unit/test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/unit/test$Paint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/unit/test$Paint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/unit/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/unit/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_781.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,89 +19,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/java/awt/Component.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70242">
-              <caret line="3309" column="16" selection-start-line="3309" selection-start-column="16" selection-end-line="3309" selection-end-column="16" />
-              <folding>
-                <element signature="e#114480#114481#0" expanded="true" />
-                <element signature="e#114527#114528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#66#67#0" expanded="true" />
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/java/util/Timer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11914">
-              <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/javax/swing/Timer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3036">
-              <caret line="155" column="71" selection-start-line="155" selection-start-column="71" selection-end-line="155" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,24 +30,6 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/leetcode_781.java" />
-        <option value="$PROJECT_DIR$/src/SocketTest.java" />
-        <option value="$PROJECT_DIR$/src/big_num.java" />
-        <option value="$PROJECT_DIR$/eclipse/lanqiao/src/basis/ten_to_sixteen.java" />
-        <option value="$PROJECT_DIR$/src/leetcode_4.java" />
-        <option value="$PROJECT_DIR$/src/lanqiao/test13_q1.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode_781.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode105.java" />
-        <option value="$PROJECT_DIR$/eclipse/lanqiao/src/test17/q2.java" />
-        <option value="$PROJECT_DIR$/src/Point.java" />
-        <option value="$PROJECT_DIR$/src/test1.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -150,44 +47,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
+  <component name="ProjectId" id="1PSfNtGyct6gPmjHAtR1DeRr52j" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lanqiao" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -198,10 +60,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -221,46 +83,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.test">
-    <configuration name="big_num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="big_num" />
-      <module name="unit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="蓝桥杯.test" />
-      <module name="unit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="蓝桥杯.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="app" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="unit" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1" />
-      <module name="unit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test13_q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lanqiao.test13_q1" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssm.test" />
       <module name="unit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lanqiao.*" />
+          <option name="PATTERN" value="ssm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,20 +103,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.test (1)" />
-      <item itemvalue="Application.big_num" />
-      <item itemvalue="Application.test13_q1" />
-      <item itemvalue="Application.test1" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.test1" />
-        <item itemvalue="Application.test13_q1" />
-        <item itemvalue="Application.big_num" />
-        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.app" />
       </list>
     </recent_temporary>
   </component>
@@ -338,414 +163,32 @@
       <workItem from="1558408559658" duration="7377000" />
       <workItem from="1560993025435" duration="1049000" />
       <workItem from="1560994511165" duration="4000" />
+      <workItem from="1565872402531" duration="330000" />
+      <workItem from="1565873828875" duration="42000" />
+      <workItem from="1566048662852" duration="104000" />
+      <workItem from="1567682425653" duration="11000" />
+      <workItem from="1567682617822" duration="427000" />
+      <workItem from="1567684982567" duration="628000" />
+      <workItem from="1567731491415" duration="654000" />
+      <workItem from="1574176913044" duration="164000" />
+      <workItem from="1583202092234" duration="95000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87978000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35886213" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29284164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18274416" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32121924" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985932" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3282532" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/with_score.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/walnut_num.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/travel_expenses.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/the_wrong_paper.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/the_num_can_not_get.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/the_cion.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/test.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/risk.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/num_continuous_section.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/past_exam/cross_figure.class" />
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/alphabet_graphics.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/find_int.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/if_leap_year.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/sequence.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/sort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/special_palindromic_num.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/basis/ten_to_sixteen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/algorithm/find_k_good_num.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/application/java/jdk-8u202-linux-x64/jdk1.8.0_202/src.zip!/java/lang/String.java" />
-    <entry file="jar://$USER_HOME$/application/java/jdk-8u202-linux-x64/jdk1.8.0_202/src.zip!/java/util/List.java" />
-    <entry file="jar://$USER_HOME$/application/java/jdk-8u202-linux-x64/jdk1.8.0_202/src.zip!/java/util/Calendar.java" />
-    <entry file="jar://$USER_HOME$/application/java/jdk-8u202-linux-x64/jdk1.8.0_202/src.zip!/java/math/BigDecimal.java" />
-    <entry file="jar://$USER_HOME$/application/java/jdk-8u202-linux-x64/jdk1.8.0_202/src.zip!/java/math/BigInteger.java" />
-    <entry file="jar://$USER_HOME$/application/java/jdk-8u202-linux-x64/jdk1.8.0_202/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode_781.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode105.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lanqiao/test13_q1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test14/q6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test14/q7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-631">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test14/q8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test17/q2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q3.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q4.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q5.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q6.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eclipse/lanqiao/src/test16/q8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/awt/EventQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1292" column="23" selection-start-line="1292" selection-start-column="23" selection-end-line="1292" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="993" column="16" selection-start-line="993" selection-start-column="16" selection-end-line="993" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Painty.java" />
-    <entry file="file://$PROJECT_DIR$/src/Paint.java" />
-    <entry file="jar://D:/java/jdk/src.zip!/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="3495" column="16" selection-start-line="3495" selection-start-column="16" selection-end-line="3495" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70242">
-          <caret line="3309" column="16" selection-start-line="3309" selection-start-column="16" selection-end-line="3309" selection-end-column="16" />
-          <folding>
-            <element signature="e#114480#114481#0" expanded="true" />
-            <element signature="e#114527#114528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#66#67#0" expanded="true" />
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11914">
-          <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/javax/swing/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3036">
-          <caret line="155" column="71" selection-start-line="155" selection-start-column="71" selection-end-line="155" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>unit</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
